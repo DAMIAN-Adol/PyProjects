@@ -59,11 +59,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-print(prom)
-
-print(QH)
-print(QL)
-
 guard = pd.ExcelWriter('DATOSDUDOSOS.xlsx')
 Datos.to_excel(guard,'DAT_DUD',index=False)
 guard.save()
